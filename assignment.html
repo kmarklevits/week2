@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <!-- set up title with characters & ability to view on mobile device -->
+            <title>GIS 5574 - Week 2</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link to Leaflet.css -->
+        <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css"/>
+        
+        <style>
+            <!-- link to my style file -->
+            <link rel="stylesheet" type="text/css"style="style.css"/>
+
+        </style>
+        
+    </head>
+    
+        <body>
+        <h1>Katrina's Webpage</h1>
+        
+        <!-- map goes here -->
+        <div id="map-container"> </div>
+        <div class="red box"> </div>
+
+        <!-- load Leaflet before javascript -->        
+        <script src="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css"> </script>
+        
+        <!--****link to GeoJSON -->
+        <script src="https://dl.dropboxusercontent.com/u/8550761/wilson-library.geojson" type="text/javascript"></script>
+        
+        <!--****link to jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script></script>
+        
+            <script>
+            <!-- load my javascript file -->           
+            <script src="script.js"> </script>
+
+            </script>
+            
+    </body>
+
+</html>

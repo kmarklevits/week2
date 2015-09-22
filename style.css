@@ -1,0 +1,17 @@
+/*rule for id map-container & set parameters*/
+#map-container {
+    height: 400px;
+    width: 500px;
+}
+
+/*rule for class box & set parameters*/
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+/*rule for class red & set parameters*/
+.red{
+    background-color: tomato;
+    border: 3px double red;
+}
